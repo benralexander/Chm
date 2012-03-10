@@ -30,12 +30,12 @@
                    <g:form  method="post" action="createNewLogin">
                         <table id="greetingstablewrapper">
                                <tr>
-                                  <td>username</td>
+                                  <td class="minilogin">username</td>
                                   <td><g:textField name="user" field="username" /></td>
                                   <td></td>
                                </tr>
                                <tr>
-                                  <td>password</td>
+                                  <td class="minilogin">password</td>
                                   <td><g:textField name="password" field="password" /></td>
                                   <td></td>
                                </tr>

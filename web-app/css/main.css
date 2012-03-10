@@ -583,3 +583,11 @@ a.skip {
 	position: absolute;
 	left: -9999px;
 }
+
+
+.minilogin {
+    color: #0000cc;
+    font-weight: normal;
+    font-size: 0.6em;
+    margin: 0.8em 0 0.3em 0;
+}
