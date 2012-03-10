@@ -1,0 +1,42 @@
+<html>
+<head>
+<link REL="stylesheet"  TYPE="text/css" HREF="../marvinmanuals.css" TITLE="NMR">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Prediction of nuclear magnetic resonance (NMR) spectra</title>
+<meta name="keywords" content="NMR">
+<meta name="author" content="Csaba Fábri">
+</head>
+<body >
+<CENTER><H1>Prediction of nuclear magnetic resonance (NMR) spectra</H1></CENTER>
+
+Fast and accurate prediction of <sup>13</sup>C and <sup>1</sup>H NMR spectra from the molecular structure plays an important
+role in structure validation and elucidation of molecules. The NMR predictor application is able to predict NMR spectra for
+standard organic molecules containing the most freuqent atoms (H, C, N, O, F, Cl, Br, I, P, S). <br><br>
+
+Basic features:
+<UL>
+	<LI> Prediction of <sup>13</sup>C and <sup>1</sup>H NMR chemical shifts. </LI>
+	<LI> Prediction of vicinal proton-proton coupling constants in case of <sup>1</sup>H NMR. </LI>
+	<LI> Spin-spin couplings are taken into account according to the first order approximation. </LI>
+</UL>
+
+The NMR graphical user interface incorporates the following features:
+<UL>
+	<LI> Toggle between coupled and decoupled NMR spectra. (only in case of <sup>1</sup>H NMR) </LI>
+	<LI> Visualization of realistic and stick NMR spectra. </LI>
+	<LI> Integral function of the NMR spectrum can be shown. </LI>
+	<LI> Toggle between ppm and Hz units. </LI>
+	<LI> Visualization of atom indices corresponding to the different multiplets. </LI>
+	<LI> Atoms of the input molecule and multiplets of the NMR spectrum are linked together.
+		 Upon selection of an atom the corresponding multiplet is highlighted and vice versa. </LI>
+	<LI> NMR measurement frequency can be chosen from a predefined list. </LI>
+	<LI> Zoom in and out. </LI>
+	<LI> Create new NMR prediction projects, open existing NMR projects and save NMR projects. </LI>
+	<LI> A single NMR project is allowed to contain more molecules. </LI>
+	<LI> New molecules can be drawn or imported from SMILES or file, existing molecules are free to edit. </LI>
+</UL>
+The current beta version is primarily for testing and can change in the future.
+Chemical shifts are estimated by a linear model based on a topological description scheme.
+In case of <sup>1</sup>H NMR vicinal proton-proton coupling constants are computed by the Karplus equation.
+</body>
+</html>

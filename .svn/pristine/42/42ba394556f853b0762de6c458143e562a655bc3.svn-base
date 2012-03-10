@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../marvinmanuals.css" 
+TITLE="Style">
+<title>Web Development Guide</title>
+<meta name="description" content="Web Development Guide"/>
+
+</head>
+<body>
+ <center>
+ <h1>Web Development Guide</h1>
+ </center>
+ 
+ 
+ 
+ 
+<h2>Introduction</h2>
+
+
+
+<h2>Which packages are required for developing?</h2>
+
+<h4>Marvin Applets</h4> <ul>
+<li>To embed MarvinView (molecule visualizer), MarvinSketch (structure editor) or MarvinSpace (3D modelling tool) in your web page, you need this package.
+</li>
+</ul>
+<h4>Marvin Beans</h4>
+<ul>
+<li>With the help of Java Web Start technology, you can insert direct link to applications in your web page. If you would like to launch MarvinView, MarvinSketch or MarvinSpace application via Internet, you need the Marvin Beans package. In this package you can find examples for embedding.
+</li>
+<li>
+    If you deploy dynamic web pages with JSP technology, the Marvin Beans API can be useful for you. You can generate images, calculate chemical properties of molecules (calculator plugins) on server side with the help of the Marvin Beans API.
+</li>
+</ul>
+<h4>Marvin Applets + Beans</h4>
+<ul>
+<li>
+ Insert applets into web form to be able to customize your request for the server. You can display the result that is calculated on server side with Marvin Beans API, with MarvinView or MarvinSpace applets.
+</li>
+</ul>
+<h4>JChem</h4>
+<ul>
+<li>
+ The JChem package includes a Marvin Applets package (jchem/marvin). The JChem API contains also the full Marvin Beans API. If you deploy dynamic web pages where any JChem product (like Standardizer, Reactor, JChemBase, etc) is required, you need this package.
+</li>
+</ul>
+<h2>How to get and install packages?</h2>
+
+<h4>Marvin Applets</h4> 
+
+Download Marvin for Java Developers:<a href="http://www.chemaxon.com/marvin/download-dev.html#marvinapplets">http://www.chemaxon.com/marvin/download-dev.html#marvinapplets</a>.
+
+<h4>Marvin Beans</h4>
+
+For the usage of Marvin Beans API, desktop features are not required that the Marvin Beans installers provide.
+You can use both platform dependent installer or the cross platform version zip archive to get Marvin Beans API.
+See installation instruction on the download page: <a href="http://www.chemaxon.com/marvin/download-dev.html#marvinbeans"> http://www.chemaxon.com/marvin/download-dev.html#marvinbeans </a> (Hol van az instrukci�??-Install Guide?)
+
+<h4>JChem</4>
+
+ <a href="http://www.chemaxon.com/jchem/download.html">http://www.chemaxon.com/jchem/download.html</a>
+
+<h3>Examples</h3>
+
+<h4>Marvin Applets</h4>
+
+ <a href="http://www.chemaxon.com/marvin/examples/applets/">http://www.chemaxon.com/marvin/examples/applets/</a>
+
+<h4>Server side usage of Marvin Beans</h4>
+
+ <a href="http://www.chemaxon.com/marvin/examples/beans/image-generation/">http://www.chemaxon.com/marvin/examples/beans/image-generation/</a>
+
+<h4>JChem</h4>
+
+???
+<h2>API documentation</h2>
+
+<h3>Marvin Applets API documentation</h3>
+
+<a href="http://www.chemaxon.com/marvin/help/developer/applets/api/index.html">http://www.chemaxon.com/marvin/help/developer/applets/api/index.html</a>
+
+<h3>You can find Marvin Applets paremeters on the following web pages</h3>
+
+<h4>MarvinSketch</h4>
+<a href="http://www.chemaxon.com/marvin/help/developer/sketchman.html">http://www.chemaxon.com/marvin/help/developer/sketchman.html</a>
+
+<h4>MarvinView</h4>
+<a href="http://www.chemaxon.com/marvin/help/developer/viewman.html">http://www.chemaxon.com/marvin/help/developer/viewman.html</a>
+
+<h4>MarvinSpace</h4>
+<a href="http://www.chemaxon.com/marvin/help/developer/space-par.html">http://www.chemaxon.com/marvin/help/developer/space-par.html</a>
+
+
+
+<h3>Marvin Beans API documentation</h3>
+
+<a href="http://www.chemaxon.com/marvin/help/developer/beans/api/index.html">http://www.chemaxon.com/marvin/help/developer/beans/api/index.html</a>
+
+<h4>JChem API documentation</h4>
+
+
+<h2>Links of Marvin Java Web Start</h2>
+
+<h3>Introduction</h3>
+ <a href="http://www.chemaxon.com/marvin/examples/webstart/index.html">http://www.chemaxon.com/marvin/examples/webstart/index.html</a>
+
+<h4>MarvinSketch</h4>
+ <a href="http://www.chemaxon.com/marvin/examples/webstart/example-jws-sketch.html">http://www.chemaxon.com/marvin/examples/webstart/example-jws-sketch.html</a>
+
+<h4>MarvinView</h4>
+ <a href="http://www.chemaxon.com/marvin/examples/webstart/example-jws-view.html">http://www.chemaxon.com/marvin/examples/webstart/example-jws-view.html</a>
+
+<h4>MarvinSpace</h4>
+ <a href="http://www.chemaxon.com/marvinspace/html/webstart.html">http://www.chemaxon.com/marvinspace/html/webstart.html</a> (rossz!!)
+
+</body>
